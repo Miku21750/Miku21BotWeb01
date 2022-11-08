@@ -48,10 +48,21 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+@media (max-width: 911px){
+    .head-anim {
+        font-size: 80px;
+    }
+}
 @media (max-width: 767px) {
     .bg-img {
-    
         background-attachment: initial;
-    
+    }
+    .head-anim {
+        font-size: 50px;
+    }
+}
+@media (max-width: 413px){
+    .display-2{
+        font-size: 45px!important;
     }
 }
