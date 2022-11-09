@@ -1,6 +1,4 @@
-.a{
-   
-}
+
 .gd-nav-anim {
     background: linear-gradient(258deg, #99f5f6, #5e9cb2, #275a79, #55606e, #242b33, #4e4e50, #c86c7c);
     background-size: 1400% 1400%;
@@ -64,8 +62,16 @@
         font-size: 50px;
     }
 }
+@media (max-width: 476px){
+    .gif-miku{
+        width:300px
+    }
+}
 @media (max-width: 413px){
     .display-2{
         font-size: 45px!important;
+    }
+    .gif-miku{
+        width: 150px;
     }
 }
