@@ -1,4 +1,6 @@
-
+.a{
+   
+}
 .gd-nav-anim {
     background: linear-gradient(258deg, #99f5f6, #5e9cb2, #275a79, #55606e, #242b33, #4e4e50, #c86c7c);
     background-size: 1400% 1400%;
@@ -35,6 +37,7 @@
     50%{background-position:100% 53%}
     100%{background-position:0% 48%}
 }
+
 @keyframes AnimationName {
     0%{background-position:0% 48%}
     50%{background-position:100% 53%}
